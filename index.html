@@ -10,10 +10,10 @@
 <body>
 
     <nav class="navbar">
-        <div class="logo">DEFEND<span>LOOP</span></div>
+        <div class="logo">Defend<span>Loop.io</span></div>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#owasp">OWASP Top 10</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/owasp-top-10">OWASP Top 10</a></li>
             <li><a href="/resume">Resume</a></li>
             <li><a href="https://github.com/vishalprajapati2k25" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
         </ul>
@@ -23,93 +23,38 @@
         <div class="hero-content">
             <img src="https://github.com/vishalprajapati2k25.png" alt="Vishal Prajapati" class="profile-img">
             <h1>Vishal Prajapati</h1>
-            <p>Senior Automation Engineer | AppSec & AI Expert</p>
-            <div class="status-badge"><i class="fas fa-shield-alt"></i> Protecting the Digital Loop</div>
+            <p>Senior Automation Engineer | AppSec & AI Security Specialist</p>
+            <div class="status-badge"><i class="fas fa-microchip"></i> AI-Driven Auditing Enabled</div>
+            
+            <div class="bio-intro">
+                <p>Welcome to <strong>DefendLoop</strong>. I specialize in bridging the gap between traditional Application Security and the new frontier of AI-driven vulnerabilities.</p>
+                <div class="focus-tags">
+                    <span>#LLM-Security</span>
+                    <span>#Smart-Contract-Auditing</span>
+                    <span>#Automated-Pentesting</span>
+                </div>
+            </div>
         </div>
     </header>
 
-    <section id="owasp" class="owasp-container">
-        <h2><i class="fas fa-list-check"></i> OWASP Top 10: 2021 vs 2025</h2>
-        <p class="subtitle">The evolution of web security risks in the age of Cloud & AI.</p>
-        
-        <div class="table-wrapper">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>2021 Category</th>
-                        <th>2025 Updated Category</th>
-                        <th>Key Evolution</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="highlight">
-                        <td>A01</td>
-                        <td>Broken Access Control</td>
-                        <td>Broken Access Control</td>
-                        <td>Remains #1. Now explicitly includes SSRF (Server-Side Request Forgery).</td>
-                    </tr>
-                    <tr>
-                        <td>A02</td>
-                        <td>Cryptographic Failures</td>
-                        <td>Security Misconfiguration</td>
-                        <td>Rose from #5 to #2. Reflects the shift toward Cloud & Infrastructure-as-Code.</td>
-                    </tr>
-                    <tr>
-                        <td>A03</td>
-                        <td>Injection</td>
-                        <td>Software Supply Chain Failures</td>
-                        <td><strong>NEW Rank.</strong> Expanded from "Outdated Components" to cover the entire build pipeline.</td>
-                    </tr>
-                    <tr>
-                        <td>A04</td>
-                        <td>Insecure Design</td>
-                        <td>Cryptographic Failures</td>
-                        <td>Moved down. Focus remains on sensitive data exposure and weak hashing.</td>
-                    </tr>
-                    <tr>
-                        <td>A05</td>
-                        <td>Security Misconfiguration</td>
-                        <td>Injection</td>
-                        <td>Fell from #3 to #5. Still critical, but better defended by modern frameworks.</td>
-                    </tr>
-                    <tr>
-                        <td>A06</td>
-                        <td>Vulnerable Components</td>
-                        <td>Insecure Design</td>
-                        <td>Focuses on design flaws rather than implementation bugs.</td>
-                    </tr>
-                    <tr>
-                        <td>A07</td>
-                        <td>Identification & Auth</td>
-                        <td>Authentication Failures</td>
-                        <td>Streamlined name; focus on MFA bypass and session hijacking.</td>
-                    </tr>
-                    <tr>
-                        <td>A08</td>
-                        <td>Software/Data Integrity</td>
-                        <td>Software or Data Integrity</td>
-                        <td>Focuses on CI/CD pipeline security and malicious updates.</td>
-                    </tr>
-                    <tr>
-                        <td>A09</td>
-                        <td>Logging & Monitoring</td>
-                        <td>Logging and Alerting Failures</td>
-                        <td>Updated to emphasize the need for active <strong>Alerting</strong>, not just logs.</td>
-                    </tr>
-                    <tr class="new-entry">
-                        <td>A10</td>
-                        <td>SSRF</td>
-                        <td>Mishandling of Exceptional Conditions</td>
-                        <td><strong>NEW Category.</strong> Focuses on logic errors and unhandled crashes.</td>
-                    </tr>
-                </tbody>
-            </table>
+    <section class="projects-preview">
+        <h2>Expertise & Focus</h2>
+        <div class="focus-grid">
+            <div class="focus-card">
+                <i class="fas fa-brain"></i>
+                <h3>AI Security</h3>
+                <p>Analyzing Prompt Injection, Data Poisoning, and LLM supply chain risks.</p>
+            </div>
+            <div class="focus-card">
+                <i class="fas fa-code-branch"></i>
+                <h3>AppSec Automation</h3>
+                <p>Building custom scanners to automate vulnerability discovery in modern web apps.</p>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 DefendLoop.io | Built with <i class="fas fa-code"></i> and Security in Mind.</p>
+        <p>&copy; 2026 DefendLoop.io | Vishal Prajapati</p>
     </footer>
 
 </body>
