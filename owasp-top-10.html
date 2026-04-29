@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OWASP Top 10 | DefendLoop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">DEFEND<span>LOOP</span></div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/owasp-top-10">OWASP Top 10</a></li>
+            <li><a href="/resume">Resume</a></li>
+            <li><a href="https://github.com/vishalprajapati2k25" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+        </ul>
+    </nav>
+
+    <section class="owasp-container">
+        <h2><i class="fas fa-shield-virus"></i> OWASP Top 10: 2021 vs. 2025 Evolution</h2>
+        <p class="subtitle">A breakdown of the shifting threat landscape in modern application security.</p>
+        
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>2021 Standard</th>
+                        <th>2025 Outlook</th>
+                        <th>Industry Shift</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>A01</td><td>Broken Access Control</td><td>Broken Access Control</td><td>Identity-first security focus.</td></tr>
+                    <tr class="highlight"><td>A02</td><td>Cryptographic Failures</td><td>Security Misconfiguration</td><td>Infrastructure-as-Code (IaC) risks rose.</td></tr>
+                    <tr class="new-entry"><td>A03</td><td>Injection</td><td>Software Supply Chain Failures</td><td>SBOM and pipeline integrity are critical.</td></tr>
+                    <tr><td>A04</td><td>Insecure Design</td><td>Cryptographic Failures</td><td>Post-Quantum cryptography readiness.</td></tr>
+                    <tr><td>A05</td><td>Security Misconfiguration</td><td>Injection</td><td>LLM Prompt Injection is the new frontier.</td></tr>
+                    <tr><td>A06</td><td>Vulnerable Components</td><td>Insecure Design</td><td>Architecture-level threat modeling.</td></tr>
+                    <tr><td>A07</td><td>Identification & Auth</td><td>Authentication Failures</td><td>Shift from passwords to Passkeys/FIDO2.</td></tr>
+                    <tr><td>A08</td><td>Software/Data Integrity</td><td>Software or Data Integrity</td><td>Protecting against rogue CI/CD plugins.</td></tr>
+                    <tr><td>A09</td><td>Logging & Monitoring</td><td>Logging & Alerting Failures</td><td>Active response over passive logs.</td></tr>
+                    <tr class="new-entry"><td>A10</td><td>SSRF</td><td>Mishandling Exceptions</td><td>Logic errors in microservices.</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 DefendLoop.io | Vishal Prajapati</p>
+    </footer>
+
+</body>
+</html>
